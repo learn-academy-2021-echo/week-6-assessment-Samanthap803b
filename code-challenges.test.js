@@ -42,10 +42,31 @@ const hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 
 // a) Create a test with an expect statement using the variables provided.
 
-const cubeAndSum1 = [2, 3, 4]
-// Expected output: 99
-const cubeAndSum2 = [0, 5, 10]
-// Expected output: 1125
-
-
+//  describe("cubedArr", () =>{
+   let cubeAndSum1 = [2, 3, 4]
+//    let cubeAndSum2 = [0, 5, 10]
+//   it("array of numbers and returns the sum of all the numbers cubed", ()=> {
+//     expect(cubedArr(cubeAndSum1)).toEqual([99]),
+//     expect(cubedArr(cubeAndSum2)).toEqual([1125])
+//  })
+// })
 // b) Create the function that makes the test pass.
+
+const cubedArr =(array) => {
+  return array.sum((value, index) =>{
+    return array.filter *3 *3
+
+  })
+}
+
+
+
+
+
+
+
+
+
+
+// Expected output: 99
+// Expected output: 1125
